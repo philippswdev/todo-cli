@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Local data
+.todo_cli.json
+
+# OS
+.DS_Store
+Thumbs.db
