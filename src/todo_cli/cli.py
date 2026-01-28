@@ -7,7 +7,6 @@ from pathlib import Path
 from todo_cli.core import Importance, Urgency, add_task, mark_done, sorted_tasks
 from todo_cli.storage import default_db_path, load_tasks, save_tasks
 
-
 def parse_importance(s: str) -> Importance:
     try:
         return Importance(s.lower())
